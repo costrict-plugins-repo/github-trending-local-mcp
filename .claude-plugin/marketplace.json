@@ -1,0 +1,26 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "local-mcp",
+  "description": "LMCP for Claude Code: skills for working with your Mac or Windows PC apps (Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, Office and more) through LMCP.",
+  "owner": {
+    "name": "LMCP",
+    "email": "support@local-mcp.com"
+  },
+  "plugins": [
+    {
+      "name": "local-mcp",
+      "source": "./",
+      "description": "Skills that help Claude Code use LMCP with Mail, Calendar, Teams, Slack, WhatsApp, OneDrive, files and more on your Mac or Windows PC. LMCP itself comes from the LMCP installer, which configures Claude Code.",
+      "version": "1.3.8",
+      "author": {
+        "name": "LMCP",
+        "email": "support@local-mcp.com"
+      },
+      "homepage": "https://local-mcp.com",
+      "repository": "https://github.com/colibird-ai/local-mcp-claude-plugin",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["mcp", "skills", "macos", "windows", "mail", "calendar", "slack", "teams", "whatsapp", "productivity"]
+    }
+  ]
+}
